@@ -1,0 +1,64 @@
+html, button, input, select, textarea {
+	color: #444;
+}
+html{
+	background-color: #edebcc;
+	font-size : 1em;
+	line-height : 1.4;
+}
+
+#wrapper  {
+	max-height: 900px;
+	min-width: 320px;
+	align-content: center;
+	margin: auto;
+}
+
+body {
+	margin-left: 100px;
+	margin-right:100px;
+	font-family: lekton, monospace;
+}
+
+#adresse, #email
+{
+		    height: 20px;
+		    width:18px;
+}
+#linkedin, #twitter
+{
+	margin-top: 10px;
+}
+#linkedin
+{
+	height:30px;
+}
+
+#photo 
+{
+	
+	float: right;
+	border-width: 1px;
+	color: #ccc;
+	border-radius: 50%;
+	border-image: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	height: 180px;
+	width: 150px;
+
+}
+h2 {
+	border-bottom: 1px outset;
+	
+}
+
+a {
+	color:black;
+
+}
+footer {
+   text-align: center;
+   border-top: black 1px outset;
+   margin-top: 20px;
+   height: 100px;
+}
